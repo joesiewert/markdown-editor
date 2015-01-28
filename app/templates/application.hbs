@@ -1,10 +1,10 @@
-<h2 id="title">Markdown Editor</h2>
+<h2>Markdown Editor</h2>
 
 <div class="input">
   <h3>Markdown</h3>
-  {{textarea value=markdown placeholder="Enter some Markdown here"}}
+  {{textarea value=input placeholder="Enter some Markdown here"}}
 </div>
 <div class="output">
   <h3>HTML</h3>
-  
+  {{format-markdown input}}
 </div>
