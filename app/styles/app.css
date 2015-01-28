@@ -1,3 +1,37 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 html, body {
-  margin: 20px;
+  margin: 15px;
+  font-family: 'Hind';
+  font-weight: 400;
+}
+
+h2, h3 {
+  font-family: 'Oxygen';
+  font-weight: 400;
+}
+
+.input, .output {
+  width: 50%;
+  float: left;
+}
+
+textarea {
+  height: 400px;
+  width: 80%;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+textarea:focus {
+  border: 1.5px solid black;
+  outline: 0;
+}
+
+p {
+  width: 80%;
+  word-wrap: break-word;
 }
